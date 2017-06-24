@@ -19,22 +19,22 @@ Tout à fait, la page que vous lisez actuellement, c'est du HTML ! Pour vous en 
 
 Si vous êtes dubitatifs, essayez donc de faire une recherche (`ctrl` + `f` ou `cmd` + `f`), et chercher « dubitatifs », vous tomberez le HTML qui constitue ce paragraphe :smiley:
 
-![Code source](images/code-source.png)
+<kbd>![Code source](images/code-source.png)</kbd>
 
 Cela va donc nous arriver très souvent de vouloir mettre le nez dans Chrome quand on créera nos pages web. Pour nous simplifier la vie, Google Chrome dispose d'un outil bien plus pratique pour interagir avec le code qu'on découvrira plus en détail pendant la formation : les DevTools. Pour avoir un aperçu vous pouvez faire un clique-droit, puis sélectionner "Inspecter" (ou `F12`).
 
-![Dev Tools](images/dev-tools.png)
+<kbd>![Dev Tools](images/dev-tools.png)</kbd>
 
 
 ## Notre première page
 Pour commencer, rien de mieux qu'un exemple simple à découvrir et à modifier !
-Ce repo GitHub contient un fichier html. Vous pouvez télécharger un `.zip` en cliquant sur le gros bouton vert en haut à droite "Clone or download".
+Ce repo GitHub contient un fichier html. Vous pouvez télécharger un `.zip` en cliquant sur le gros bouton vert en haut à droite "Clone or download". Ça ressemble à ça :
 
-![Download](images/download.png)
+<kbd>![Download](images/download.png)</kbd>
 
 [Dézippez-le](https://www.google.fr/search?q=dézipper), et ouvrez le fichier `html/index.html` à l'aide d'un double-clic. Le fichier va s'ouvrir dans Google Chrome.
 
-![Bienvenue](images/bienvenue.png)
+<kbd>![Bienvenue](images/bienvenue.png)</kbd>
 
 Allons modifier le code HTML !
 
@@ -51,11 +51,11 @@ Bref, revenons à notre page HTML.
 
 On va l'ouvrir dans Atom, à l'aide d'un `clic-droit > ouvrir avec`. On peut aussi ouvrir Atom d'abord, puis ouvrir le fichier HTML avec `Fichier > Ouvrir` / `File > Open`.
 
-![Atom](images/atom.png)
+<kbd>![Atom](images/atom.png)</kbd>
 
 On peut aussi ouvrir le dossier en entier. On fera souvent ça pendant la formation, pour nous permettre d'ouvrir facilement tous les fichiers de nos projets dans Atom. Pour cela, il faut choisir `File > Open folder…` (les libellés peuvent changer selon la version d'Atom et votre système d'exploitation).
 
-![Atom folder](images/atom-folder.png)
+<kbd>![Atom folder](images/atom-folder.png)</kbd>
 
 Pratique, Atom reconnait qu'il s'agit de HTML, et va venir nous mettre automatiquement un peu de couleur dans tout ce bazar ! Nous reviendrons sur tout ça en détail la semaine prochaine. Mais on peut déjà remarquer quelques petites choses…
 
@@ -87,7 +87,7 @@ Retournons dans Google Chrome, et rechargeons la page. Là aussi, on peut se fai
 
 Et bim !
 
-![Code source](images/bienvenue-oclock.png)
+<kbd>![Code source](images/bienvenue-oclock.png)</kbd>
 
 Vous avez codé votre première ligne HTML ! :scream:
 
@@ -101,7 +101,7 @@ Il existe également d'autres titres, jusqu'au niveau 6 : `<h2>`, `<h3>`, `<h4>`
 ## Encore ?
 Allez, soyons fous. Rajoutons un **titre de niveau II** juste après notre `<h1>`, avec le contenu que vous voulez. Je vous laisse deviner ce qu'il faut écrire…
 
-![Code source](images/bienvenue-oclock-formation.png)
+<kbd>![Code source](images/bienvenue-oclock-formation.png)</kbd>
 
 Magique !
 Voici le code qu'il fallait écrire pour obtenir cet affichage :
