@@ -59,7 +59,7 @@ On peut aussi ouvrir le dossier en entier. On fera souvent ça pendant la format
 
 Pratique, Atom reconnait qu'il s'agit de HTML, et va venir nous mettre automatiquement un peu de couleur dans tout ce bazar ! Nous reviendrons sur tout ça en détail la semaine prochaine. Mais on peut déjà remarquer quelques petites choses…
 
-Il ne s'agit pas de tout comprendre du premier coup ; vous verrez, ça sera le cas de nombreuses fois dans la formation. Il est même fort probable que chaque jour, vous vous sentiez largué. C'est **tout à fait normal**. Le code, c'est souvent plein de concepts en même temps. On ne comprend jamais tout du premier coup ! Mais surtout, pas de panique, même quand vous vous croyez à l'Ouest, vous assimilez un tas d'infos sans vous en rendre compte. :relieved: 
+Il ne s'agit pas de tout comprendre du premier coup ; vous verrez, ça sera le cas de nombreuses fois dans la formation. Il est même fort probable que chaque jour, vous vous sentiez largué. C'est **tout à fait normal**. Le code, c'est souvent plein de concepts en même temps. On ne comprend jamais tout du premier coup ! Mais surtout, pas de panique, même quand vous vous croyez à l'Ouest, vous assimilez un tas d'infos sans vous en rendre compte. :relieved:
 
 Bref, nous disions. On peut remarquer qu'un fichier HTML :
 * commence toujours par un `doctype`. Ça permet d'indiquer dans quelle version du langage HTML la page va être écrite.
@@ -110,16 +110,21 @@ Voici le code qu'il fallait écrire pour obtenir cet affichage :
 <!doctype html>
 <html>
   <head>
+    <!-- titre de la page - titre présent dans l'onglet -->
     <title>Ma première page !</title>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
+    <!-- titre de niveau 1 -->
     <h1>Bienvenue chez O’clock</h1>
+    <!-- titre de niveau 2 -->
     <h2>Formation développeur web</h2>
+    <!-- paragraphe de texte -->
     <p>Voici la première page que vous allez créer. Ouais, enfin, modifier. Mais bon, ne chariez pas, c'est déjà pas mal ! Un voyage de mille lieues commence toujours par un premier pas.</p>
   </body>
 </html>
 ```
+Regardez un peu ce code, vous avez notez les `<!-- ... -->` ? Ce sont des commentaires. Les commentaires sont extrêmement pratiques. C'est le moyen idéal pour s'y retrouver et pour organiser votre code (fonctionnement, information, rappel, ...), pas de panique ce n'est pas affiché dans le résultat du navigateur. Abusez-en.
 
 Vous avez sans doute remarquer que notre `<h2>` est coloré en vert. Pourtant, nous n'avons rien dit de particulier dans notre code HTML pour indiquer au navigateur de colorer ce titre en vert. D'ailleurs, nous n'avons pas non plus préciser que notre contenu devait être centré par exemple. C'est normal ?
 
