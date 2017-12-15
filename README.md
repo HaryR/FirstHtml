@@ -109,19 +109,20 @@ Voici le code qu'il fallait écrire pour obtenir cet affichage :
 ```html
 <!doctype html>
 <html>
-  <head>
-    <!-- titre de la page - titre présent dans l'onglet -->
-    <title>Ma première page !</title>
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
-    <!-- titre de niveau 1 -->
-    <h1>Bienvenue chez O’clock</h1>
-    <!-- titre de niveau 2 -->
-    <h2>Formation développeur web</h2>
-    <!-- paragraphe de texte -->
-    <p>Voici la première page que vous allez créer. Ouais, enfin, modifier. Mais bon, ne chariez pas, c'est déjà pas mal ! Un voyage de mille lieues commence toujours par un premier pas.</p>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<!-- titre de la page - titre présent dans l'onglet -->
+		<title>Ma première page !</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<!-- titre de niveau 1 -->
+		<h1>Bienvenue chez O’clock</h1>
+		<!-- titre de niveau 2 -->
+		<h2>Formation développeur web</h2>
+		<!-- paragraphe de texte -->
+		<p>Voici la première page que vous allez créer. Ouais, enfin, modifier. Mais bon, ne charriez pas, c'est déjà pas mal ! Un voyage de mille lieues commence toujours par un premier pas.</p>
+	</body>
 </html>
 ```
 Regardez un peu ce code, vous avez notez les `<!-- ... -->` ? Ce sont des commentaires. Les commentaires sont extrêmement pratiques. C'est le moyen idéal pour s'y retrouver et pour organiser votre code (fonctionnement, information, rappel, ...), pas de panique ce n'est pas affiché dans le résultat du navigateur. Abusez-en.
